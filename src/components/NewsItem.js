@@ -13,7 +13,7 @@ const NewsItem =(props)=> {
         <span className="badge rounded-pill bg-success">
           {source}
         </span></div>
-        <img src={imageUrl ? "https://ichef.bbci.co.uk/news/976/cpsprodpb/A507/production/_125374224_gettyimages-96612187.jpg" : imageUrl} className="card-img-top" alt="..." />
+        <img src={!imageUrl ? "https://ichef.bbci.co.uk/news/976/cpsprodpb/A507/production/_125374224_gettyimages-96612187.jpg" : imageUrl} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{title}...</h5>
           <p className="card-text">{!description ? "No description provided" : description}</p>
