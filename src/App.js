@@ -8,7 +8,7 @@ import LoadingBar from 'react-top-loading-bar'
 document.title = `NewsMonkey`;
 const App=()=> {
   const pageSize = 15;
-  const apiKey = process.env.REACT_APP_NEWS_API
+  const apiKey = "c13fb8aa3bef4567907eb160c8a12795";
   const[progress,setProgress]=useState(0)
 
  
